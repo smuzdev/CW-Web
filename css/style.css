@@ -8,6 +8,7 @@ body{
     font-size: 18px;
     color: #fff;
     font-weight: 400;
+    
 }
 .active{
     border-bottom: 1px solid #fff;
@@ -38,13 +39,11 @@ a:hover{
 .fixed-top{
       position: absolute;
   }
-
 .logo-img {
     position: absolute;
     top: 1%;
     left: 1%;
 }
-
 
 .main-buttons{
     text-transform: uppercase;
@@ -71,15 +70,34 @@ a:hover{
     color: #000;
     height: 100vh;
     min-height: 500px;
-    background-color: /*#f2d0ea;*/#dbdbdb;
+    background-color: /*#f2d0ea;*/#fff;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    padding: .5em !important;
 }
 h2, h5{
     color: #fc3912;
+    margin: .8em;
+    
+}
+
+h5 {
+    text-transform: uppercase;
 }
 .advantages{
     background: #fff;
 }
+
+.color-white {
+  
+
+}
+
+.icon-text {
+    line-height: normal;
+    font-weight: 300;
+
+}
+
