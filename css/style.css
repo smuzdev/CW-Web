@@ -89,7 +89,14 @@ header .btn-solid-lg {
 section.coocker {
     margin: 0;
     padding: 0;
-    background-color: #f5f6f7;
     color: black;
+}
 
+section.back-dark {
+    background-color: #f5f6f7;
+}
+
+
+section.back-light {
+    background-color: #fff;
 }
