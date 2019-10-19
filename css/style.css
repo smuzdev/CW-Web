@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,400,500,700&display=swap');
+
+.font-weight-header{ 
+    font-weight: 400;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+}
+.active{
+    border-bottom: 1px solid #fff;
+}   
+.nav-item .active:hover{
+    opacity: 1;
+}
+.logo-img:hover{
+    opacity: 1;
+}
+a{
+    text-transform: uppercase;
+    color: #fff;
+}
+a:hover{
+    color: #fff;
+    opacity: .7;
+}
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('../img/picture.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+.fixed-top{
+      position: absolute;
+  }
+
+.logo-img {
+    position: absolute;
+    top: 1%;
+    left: 1%;
+}
+
+
+.main-buttons{
+    text-transform: uppercase;
+    text-align: center;
+}
+.button{
+    background-color: #fc3912; 
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.6s;
+    margin-right: 10%;
+}
+.button:hover{
+    background-color: #fff;
+    color: #fc3912;
+    border: 1px solid #fc3912;
+}
+.py-5{
+    color: #000;
+    height: 100vh;
+    min-height: 500px;
+    background-color: /*#f2d0ea;*/#dbdbdb;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h2, h5{
+    color: #fc3912;
+}
+.advantages{
+    background: #fff;
+}
