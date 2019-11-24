@@ -532,10 +532,10 @@ font-size: 14px;
   .btn-solid-lg{
     margin-right: 0;
   }
-  p.lead{
+  p .lead{
     font-size: 1rem;
   }
-  h1.font-weight-header{
+  h1 .masthead .font-weight-header{
     font-size: 2.5rem;
   }
 }
@@ -778,7 +778,6 @@ margin-bottom:15px;
   border-bottom:none;
 }
 .about .left p{
-  font-size:1rem;
   margin:40px auto;
   width:80%
 }
@@ -815,9 +814,9 @@ margin-bottom:15px;
   border-bottom:none;
 }
 .mission .right p{
-  font-size:1rem;
   margin:40px auto;
   width:80%
+
 }
 
 
@@ -832,7 +831,7 @@ margin-bottom:15px;
   color:#fc3912;
   
 }
-.team h1 hr{
+.map h1, .team h1 hr{
   width:15%;
   border-top:2px solid #fc3912;
   background-color:transperant;
@@ -844,13 +843,13 @@ margin-bottom:15px;
    clear: both;			
 }
 
+
+
 @media(max-width:1200px){
   .mission .right p{
-     font-size:.8rem;
      margin:20px auto;
   }
   .about .left p{
-     font-size:.8rem;
      margin:20px auto;
   }
 }
