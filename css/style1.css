@@ -424,11 +424,10 @@ footer{
 }
 
 .header-h {
-  font-size: 35px;
+font-size: 35px;
 color: #fc3912;
-font-size: 46px;
-font-family: 'Satisfy', sans-serif;
-font-weight: 300;
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
 }
 ul
 {
@@ -446,11 +445,13 @@ margin-bottom:35px;
 }
 
 .masthead-2 {
-  height: 100vh;
-  min-height: 500px;
+  height: 50vh;
+  min-height: 250px;
   background-image:url('../img/masthead-2.jpg');
   background-size:cover;
   background-position:bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .menu-restaurant
 {
@@ -735,7 +736,7 @@ margin-bottom:15px;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-.masthead-1  .font-weight-header, .masthead .font-weight-header {
+.font-weight-header{
   font-family: 'AnastasiaScriptC';
   font-size: 4rem;
 }
