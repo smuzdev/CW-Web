@@ -37,6 +37,16 @@ body {
   background-attachment: fixed;
 }
 
+h1.font-weight-header{
+  font-family: 'AnastasiaScriptC';
+  font-size: 3.5rem;
+  
+}
+
+.lead{
+  font-size:1rem;
+  
+}
 h2,
 h4,
 h5 {
@@ -98,16 +108,7 @@ a.btn {
   text-decoration: none;
   transition: all 0.1s 0s ease-out;
 }
-/*
-.btn-primary{
-  background: #fc3912;
-  border: 1px solid #fff;
-}
-.btn-primary:hover{
-  background: #fff;
-  border: 1px solid #fc3912;
-  color: #fc3912;
-}*/
+
 
 .coocker-img {
   border-radius: 50%;
@@ -526,7 +527,6 @@ font-size: 35px;
 {
 font-size: 14px;
 }
-
 }
 @media (min-width: 20px) and (max-width: 370px){
   .btn-solid-lg{
@@ -535,8 +535,8 @@ font-size: 14px;
   p .lead{
     font-size: 1rem;
   }
-  h1 .masthead .font-weight-header{
-    font-size: 2.5rem;
+  h1.font-weight-header{
+    font-size:2.5rem;
   }
 }
 .msg-row{
@@ -742,10 +742,6 @@ margin-bottom:15px;
   background-position:bottom;
   background-repeat: no-repeat;
   background-attachment: fixed;
-}
-.font-weight-header{
-  font-family: 'AnastasiaScriptC';
-  font-size: 3.5rem;
 }
 
 .about{
