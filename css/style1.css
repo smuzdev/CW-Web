@@ -11,9 +11,6 @@
   
   }
 
-.font-weight-header {
-  font-weight: 400;
-}
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -531,7 +528,17 @@ font-size: 14px;
 }
 
 }
-
+@media (min-width: 20px) and (max-width: 370px){
+  .btn-solid-lg{
+    margin-right: 0;
+  }
+  p.lead{
+    font-size: 1rem;
+  }
+  h1.font-weight-header{
+    font-size: 2.5rem;
+  }
+}
 .msg-row{
 margin-top:56px;
 }
@@ -738,7 +745,7 @@ margin-bottom:15px;
 }
 .font-weight-header{
   font-family: 'AnastasiaScriptC';
-  font-size: 4rem;
+  font-size: 3.5rem;
 }
 
 .about{
@@ -864,3 +871,4 @@ margin-bottom:15px;
   width:100%; 
 }
 }
+
