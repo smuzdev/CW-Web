@@ -2,6 +2,15 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css');
 
+
+@font-face{
+
+  font-family: 'AnastasiaScriptC';
+  
+  src: url('1.otf');
+  
+  }
+
 .font-weight-header {
   font-weight: 400;
 }
@@ -10,13 +19,13 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   color: #fff;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .masthead {
   height: 100vh;
   min-height: 500px;
-  background-image: url('../img/picture.jpg');
+  background-image: url('../img/masthead.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -36,8 +45,11 @@ h4,
 h5 {
   color: #fc3912;
   padding: .8em 0em;
+  font-weight: 300;
 }
-
+h2{
+  font-weight: 400;
+}
 h5 {
   font-size: 16px;
   text-transform: uppercase;
@@ -48,12 +60,10 @@ p, .list-inline li{
 }
 .white{
   color:#fff;
-  font-weight: 300;
 }
 .icon-text {
   line-height: normal;
-  font-weight: 300;
-
+  font-weight:300;
 }
 
 header .btn-solid-lg {
@@ -77,16 +87,13 @@ header .btn-solid-lg {
   background-color: #fc3912;
   color: #fff;
   text-decoration: none;
-  font-size: 16px;
   font: 300 0.75rem/0 "Roboto", sans-serif;
   transition: all 0.2s;
 }
 
-
-
 a.btn {
   background: #fc3912;
-  border-radius: 4px;
+  border-radius: 2rem;
   color: #ffffff;
   display: inline-block;
   padding: 6px 30px 8px;
@@ -94,8 +101,16 @@ a.btn {
   text-decoration: none;
   transition: all 0.1s 0s ease-out;
 }
-
-
+/*
+.btn-primary{
+  background: #fc3912;
+  border: 1px solid #fff;
+}
+.btn-primary:hover{
+  background: #fff;
+  border: 1px solid #fc3912;
+  color: #fc3912;
+}*/
 
 .coocker-img {
   border-radius: 50%;
@@ -430,13 +445,13 @@ padding: 60px 0px;
 margin-bottom:35px;
 }
 
-/*.masthead-2 {
+.masthead-2 {
   height: 100vh;
   min-height: 500px;
-  background-image:url('https://res.cloudinary.com/arpr/image/upload/v1541394028/architecture-building-campus-207684.jpg');
+  background-image:url('../img/masthead-2.jpg');
   background-size:cover;
   background-position:bottom;
-}*/
+}
 .menu-restaurant
 {
 width:50%;
@@ -453,15 +468,7 @@ text-transform:uppercase;
 letter-spacing:1px;
 color:#fc3912;
 }
-.menu-restaurant .menu-line
-{
-position: absolute;
-bottom:6px;
-border-bottom:1px dotted rgba(0,0,0,.3);
-margin-left: .6em;
-margin-right: .6em;
 
-}
 .menu-restaurant .menu-price{
 color: #000;
 font-weight:600;
@@ -721,13 +728,17 @@ margin-bottom:15px;
 }
 
 .masthead-1 {
-  height: 100vh;
-  min-height: 500px;
-  background-image:url('https://res.cloudinary.com/arpr/image/upload/v1541394028/architecture-building-campus-207684.jpg');
+  height: 50vh;
+  background-image:url('../img/masthead-1.jpg');
   background-size:cover;
   background-position:bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
-
+.masthead-1  .font-weight-header, .masthead .font-weight-header {
+  font-family: 'AnastasiaScriptC';
+  font-size: 4rem;
+}
 
 .about{
   padding:5% 0;
