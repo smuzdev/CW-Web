@@ -1021,7 +1021,7 @@ div.blog-text{
 }
 .size{
   width:426px;
-  height: 200px;
+  height: 283px;
   margin: 1%;
 }
 
@@ -1033,5 +1033,8 @@ div.blog-text{
   .masthead-4
   {
     background-attachment: unset ; 
+  }
+  .size{
+    height: 200px;
   }
 }
