@@ -525,6 +525,7 @@ font-size: 35px;
 {
 font-size: 14px;
 }
+
 }
 @media (min-width: 20px) and (max-width: 370px){
   .btn-solid-lg{
@@ -1020,6 +1021,17 @@ div.blog-text{
 }
 .size{
   width:426px;
-  height: 284px;
+  height: 200px;
   margin: 1%;
+}
+
+@media screen and (max-width: 450px){
+  .masthead,
+  .masthead-1,
+  .masthead-2,
+  .masthead-3,
+  .masthead-4
+  {
+    background-attachment: unset ; 
+  }
 }
