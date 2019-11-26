@@ -6,8 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Контакты - Klingen Restaurant</title>
+  <link rel="stylesheet" href="//cdn.materialdesignicons.com/2.1.99/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.0/css/swiper.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style1.css">
+  <link rel="stylesheet" href="css/carousel.css"
 </head>
 
 <body>
@@ -29,19 +33,124 @@
     </nav>
   </div>
 
- 
-  <header class="masthead">
+  
+  <header class="masthead-4">
     <div class="container h-100">
       <div class="row h-100 align-items-center">
         <div class="col-12 text-center">
-         
+            <h1 class="font-weight-header">Галерея</h1>
         </div>
       </div>
     </div>
   </header>
 
 
+  <section>
+      <div class="col-md-12 text-center  marb-35">
+          <h1 class="header-h mrg">Фотографии</h1>
+          <p  class="header-p"> Интерьер нашего ресторана</p>
+    <!--Carousel Gallery-->
+<div class="carousel-gallery">
+  <div class="swiper-container">
+      <div class="swiper-wrapper">
+          <div class="swiper-slide">
+              <a href="img/restaurant/1.jpg" data-fancybox="gallery">
+                  <div class="image" style="background-image: url(img/restaurant/1.jpg)">
+                      <div class="overlay">
+                          <em class="mdi mdi-magnify-plus"></em>
+                      </div>
+                  </div>
+              </a>
+          </div>
+          <div class="swiper-slide">
+              <a href="img/restaurant/2.jpg" data-fancybox="gallery">
+                  <div class="image" style="background-image: url(img/restaurant/2.jpg)">
+                      <div class="overlay">
+                          <em class="mdi mdi-magnify-plus"></em>
+                      </div>
+                  </div>
+              </a>
+          </div>
+          <div class="swiper-slide">
+              <a href="img/restaurant/3.jpg" data-fancybox="gallery">
+                  <div class="image" style="background-image: url(img/restaurant/3.jpg)">
+                      <div class="overlay">
+                          <em class="mdi mdi-magnify-plus"></em>
+                      </div>
+                  </div>
+              </a>
+          </div>
+          <div class="swiper-slide">
+              <a href="img/restaurant/4.jpg" data-fancybox="gallery">
+                  <div class="image" style="background-image: url(img/restaurant/4.jpg)">
+                      <div class="overlay">
+                          <em class="mdi mdi-magnify-plus"></em>
+                      </div>
+                  </div>
+              </a>
+          </div>
+          <div class="swiper-slide">
+              <a href="img/restaurant/5.jpg" data-fancybox="gallery">
+                  <div class="image" style="background-image: url(img/restaurant/5.jpg)">
+                      <div class="overlay">
+                          <em class="mdi mdi-magnify-plus"></em>
+                      </div>
+                  </div>
+              </a>
+          </div>
+          <div class="swiper-slide">
+              <a href="img/restaurant/10.jpg" data-fancybox="gallery">
+                  <div class="image" style="background-image: url(img/restaurant/10.jpg)">
+                      <div class="overlay">
+                          <em class="mdi mdi-magnify-plus"></em>
+                      </div>
+                  </div>
+              </a>
+          </div>
+      </div>
+      <div class="swiper-pagination"></div>
+  </div>
+</div>
+<!--#Carousel Gallery-->
+  </section>
+<section>
+    <div class="col-md-12 text-center  marb-35">
+        <h1 class="header-h">Фотоотчет</h1>
+        <p class="header-p"> Последние фото с мерприятий</p>
+        <p>
+            <a href="img/gallery/1.jpg" data-fancybox="images">
+                <img class ="size" src="img/gallery/1.jpg" />
+            </a>
+          
+            <a href="img/gallery/2.jpg" data-fancybox="images">
+              <img class ="size" src="img/gallery/2.jpg" />
+            </a>
+          
+            <a href="img/gallery/3.jpg" data-fancybox="images">
+              <img class ="size" src="img/gallery/3.jpg" />
+            </a>
+            
+            <a href="img/gallery/4.jpg" data-fancybox="images">
+              <img class ="size" src="img/gallery/4.jpg" />
+            </a>
+    
+            <a href="img/gallery/5.jpg" data-fancybox="images">
+              <img class ="size" src="img/gallery/5.jpg" />
+            </a>
+    
+            <a href="img/gallery/6.jpg" data-fancybox="images">
+              <img class ="size" src="img/gallery/6.jpg" />
+            </a>
+            
+            <a href="img/gallery/7.jpg" data-fancybox="images">
+              <img class ="size" src="img/gallery/7.jpg" />
+            </a>
 
+            <a href="img/gallery/9.jpg" data-fancybox="images">
+              <img class ="size" src="img/gallery/9.jpg" />
+            </a>
+        </p>
+</section>
 
   <footer>
       <div class="container">
@@ -92,16 +201,12 @@
       </footer>
 
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-  </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-  </script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-  </script>
-
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+</script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.0/js/swiper.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js'></script>
+<script  src="/js/carousel.js"></script>
 
   <script>
     $(".menu-toggle").on('click', function () {

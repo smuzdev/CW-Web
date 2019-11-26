@@ -1008,3 +1008,19 @@ div.blog-text{
   }
 }
 
+.masthead-4 {
+  height: 50vh;
+  background-image:url('../img/masthead-4.jpg');
+  background-size:cover;
+  background-position:bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.mrg{
+  margin-top: 10%;
+}
+.size{
+  width:426px;
+  height: 284px;
+  margin: 1%;
+}
