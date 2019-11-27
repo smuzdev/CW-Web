@@ -213,55 +213,44 @@
                   </div>
                   <div class="col-md-8 col-sm-8">
                       <form action="/php/telegram.php" method="POST" role="form" class="contactForm">
-                      <div id="sendmessage">Ваша заявка была отправлена. Спасибо!</div>
-                      <div id="errormessage"></div>
                       <div class="col-md-6 col-sm-6 contact-form pad-form">
                           <div class="form-group label-floating is-empty">
                               <input type="text" name="name" class="form-control" id="name" placeholder="Ваше имя" data-rule="minlen:4" data-msg="Введите, пожалуйста минимум 4 символа." />
-                              <div class="validation"></div>
                           </div>
                           
                       </div>
                       <div class="col-md-6 col-sm-6 contact-form">
                           <div class="form-group">
-                              <input type="date" class="form-control label-floating is-empty" name="date" id="date" placeholder="Дата" data-rule="required" data-msg="Это поле 
-                              обязательно"/>
-                              <div class="validation"></div>
+                              <input type="date" class="form-control label-floating is-empty" name="date" id="date" placeholder="Дата" data-rule="required"/>
                           </div>
                       </div>
                       <div class="col-md-6 col-sm-6 contact-form">
                           <div class="form-group">
-                              <input type="time" class="form-control label-floating is-empty" name="time" id="time" placeholder="Время" data-rule="required" data-msg="Это поле 
-                              обязательно" />
-                              <div class="validation"></div>
+                              <input type="time" class="form-control label-floating is-empty" name="time" id="time" placeholder="Время" data-rule="required" />
+                             
                           </div>
                       </div>
                       <div class="col-md-6 col-sm-6 contact-form">
                           <div class="form-group">
-                              <input type="text" class="form-control label-floating is-empty" name="phone" id="phone" placeholder="Номер телефона" data-rule="required" data-msg="Это поле 
-                              обязательно" />
-                              <div class="validation"></div>
+                              <input type="text" class="form-control label-floating is-empty" name="phone" id="phone" placeholder="Номер телефона" data-rule="required" />
                           </div>
                       </div>
                       <div class="col-md-6 col-sm-6 contact-form">
                           <div class="form-group">
-                              <input type="text" class="form-control label-floating is-empty" name="people" id="people" placeholder="Количество человек" data-rule="required" data-msg="Это поле 
-                              обязательно" />
-                              <div class="validation"></div>
+                              <input type="text" class="form-control label-floating is-empty" name="people" id="people" placeholder="Количество человек" data-rule="required" />
                           </div>
                       </div>
                       <div class="col-md-12 contact-form">
                           <div class="form-group label-floating is-empty">
-                              <textarea class="form-control" name="message" rows="5" rows="3" data-rule="required" data-msg="Please write something for us" placeholder="Пожелания"></textarea>
-                              <div class="validation"></div>
+                              <textarea class="form-control" name="message" rows="5" rows="3" placeholder="Пожелания"></textarea>
+                              
+                              <div class="col-md-12 btnpad ">
+                                <div class="contacts-btn-pad ">
+                                    <button type="submit" class="btn-solid-lg">Подтвердить</button>
+                                </div>
+                            </div>
                           </div>
                           </form>
-                      </div>
-  
-                      <div class="col-md-12 btnpad ">
-                          <div class="contacts-btn-pad ">
-                              <button type="submit" class="btn-solid-lg">Подтвердить</button>
-                          </div>
                       </div>
                   </div>
               </div>
