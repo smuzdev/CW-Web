@@ -195,7 +195,7 @@
                           </div>
                           <div class="media-body">
                               <h4 class="dark-blue regular">Номера телефонов</h4>
-                              <p class="light-blue regular alt-p">+375 (25) 9294198 - <span class="contacts-sp">Заказ по телефону</span></p>
+                              <p class="light-blue regular alt-p">+375 (25) 929 41 98 - <span class="contacts-sp">Заказ по телефону</span></p>
                           </div>
                       </div>
                       <div class="media-2">
@@ -212,7 +212,7 @@
                       </div>
                   </div>
                   <div class="col-md-8 col-sm-8">
-                      <form action="" method="post" role="form" class="contactForm">
+                      <form action="/php/telegram.php" method="POST" role="form" class="contactForm">
                       <div id="sendmessage">Ваша заявка была отправлена. Спасибо!</div>
                       <div id="errormessage"></div>
                       <div class="col-md-6 col-sm-6 contact-form pad-form">
@@ -226,12 +226,6 @@
                           <div class="form-group">
                               <input type="date" class="form-control label-floating is-empty" name="date" id="date" placeholder="Дата" data-rule="required" data-msg="Это поле 
                               обязательно"/>
-                              <div class="validation"></div>
-                          </div>
-                      </div>
-                      <div class="col-md-6 col-sm-6 contact-form pad-form">
-                          <div class="form-group">
-                              <input type="email" class="form-control label-floating is-empty" name="email" id="email" placeholder="Ваш Email" data-rule="email" data-msg="Введите ваш Email" />
                               <div class="validation"></div>
                           </div>
                       </div>
@@ -266,7 +260,7 @@
   
                       <div class="col-md-12 btnpad ">
                           <div class="contacts-btn-pad ">
-                              <button class="btn-solid-lg">Подтвердить</button>
+                              <button type="submit" class="btn-solid-lg">Подтвердить</button>
                           </div>
                       </div>
                   </div>
